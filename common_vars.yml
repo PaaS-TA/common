@@ -17,7 +17,7 @@ paasta_nats_user: "nats"
 paasta_nats_password: "7EZB5ZkMLMqT73h2JtxPv1fvh3UsqO"	# PaaS-TA Nats Password (CredHub 로그인후 'credhub get -n /micro-bosh/paasta/nats_password' 명령어를 통해 확인 가능)
 paasta_nats_private_networks_name: "default"	# PaaS-TA Nats 의 Network 이름
 paasta_database_ips: "10.0.1.123"		# PaaS-TA Database IP (e.g. "10.0.1.123")
-paasta_database_port: 5524			# PaaS-TA Database Port (e.g. 5524)
+paasta_database_port: 5524			# PaaS-TA Database Port (e.g. 5524(postgresql)/13307(mysql)) -- Do Not Use "3306"&"13306" in mysql
 paasta_database_type: "postgresql"                      # PaaS-TA Database Type (e.g. "postgresql" or "mysql")
 paasta_database_driver_class: "org.postgresql.Driver"   # PaaS-TA Database driver-class (e.g. "org.postgresql.Driver" or "com.mysql.jdbc.Driver")
 paasta_cc_db_id: "cloud_controller"		# CCDB ID (e.g. "cloud_controller")
