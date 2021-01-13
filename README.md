@@ -24,7 +24,7 @@ PaaS-TA >= v5.0.3
 |paasta_nats_password|service-deployment/mongodb|
 |paasta_nats_private_networks_name|service-deployment/container-service|
 |paasta_database_ips|portal-deployment/portal-api|
-|paasta_database_port|portal-deployment/portal-api|
+|paasta_database_port|portal-deployment/portal-api<br>paasta-deployment/paasta|
 |paasta_database_type|portal-deployment/portal-api|
 |paasta_database_driver_class|portal-deployment/portal-api|
 |paasta_cc_db_id|portal-deployment/portal-api|
