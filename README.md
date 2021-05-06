@@ -11,6 +11,7 @@ PaaS-TA >= v5.0.3
 |bosh_client_admin_secret|monitoring-deployment/paasta-monitoring<br>service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br><br>service-deployment/web-ide|
 |bosh_director_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
 |bosh_oauth_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
+|bosh_version|service-deployment/redis<br>service-deployment/web-ide|
 
 ### PAAS-TA INFO
 |변수이름|deployment|
