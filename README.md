@@ -6,18 +6,18 @@ PaaS-TA >= v5.0.3
 |변수이름|deployment|
 |------|---|
 |bosh_ip|monitoring-deployment/paasta-monitoring|
-|bosh_url|service-deployment/lifecycle-service<br>service-deployment/container-service<br>service-deployment/redis<br>service-deployment/gateway-service|
-|bosh_client_admin_id|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service|
-|bosh_client_admin_secret|monitoring-deployment/paasta-monitoring<br>service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>|
-|bosh_director_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service|
-|bosh_oauth_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service|
+|bosh_url|service-deployment/lifecycle-service<br>service-deployment/container-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
+|bosh_client_admin_id|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
+|bosh_client_admin_secret|monitoring-deployment/paasta-monitoring<br>service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br><br>service-deployment/web-ide|
+|bosh_director_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
+|bosh_oauth_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
 
 ### PAAS-TA INFO
 |변수이름|deployment|
 |------|---|
-|system_domain|monitoring-deployment/paasta<br>monitoring-deployment/paasta-monitoring<br>monitoring-deployment/logsearch<br>service-deployment/glusterfs<br>service-deployment/rabbitmq<br>service-deployment/mongodb<br>service-deployment/container-service<br>service-deployment/source-control-service<br>service-deployment/redis<br>service-deployment/pipeline-service<br>service-deployment/logging-service<br>paasta-deployment/paasta<br>portal-deployment/portal-api<br>portal-deployment/portal-ui|
-|paasta_admin_username|monitoring-deployment/paasta<br>monitoring-deployment/paasta-monitoring<br>service-deployment/glusterfs<br>service-deployment/rabbitmq<br>service-deployment/mongodb<br>service-deployment/redis<br>paasta-deployment/paasta<br>portal-deployment/portal-api<br>|
-|paasta_admin_password|monitoring-deployment/paasta<br>monitoring-deployment/paasta-monitoring<br>service-deployment/glusterfs<br>service-deployment/rabbitmq<br>service-deployment/mongodb<br>service-deployment/redis<br>paasta-deployment/paasta<br>portal-deployment/portal-api|
+|system_domain|monitoring-deployment/paasta<br>monitoring-deployment/paasta-monitoring<br>monitoring-deployment/logsearch<br>service-deployment/glusterfs<br>service-deployment/rabbitmq<br>service-deployment/mongodb<br>service-deployment/container-service<br>service-deployment/source-control-service<br>service-deployment/redis<br>service-deployment/pipeline-service<br>service-deployment/logging-service<br>service-deployment/web-ide<br>paasta-deployment/paasta<br>portal-deployment/portal-api<br>portal-deployment/portal-ui|
+|paasta_admin_username|monitoring-deployment/paasta<br>monitoring-deployment/paasta-monitoring<br>service-deployment/glusterfs<br>service-deployment/rabbitmq<br>service-deployment/mongodb<br>service-deployment/redis<br>service-deployment/web-ide<br>paasta-deployment/paasta<br>portal-deployment/portal-api<br>|
+|paasta_admin_password|monitoring-deployment/paasta<br>monitoring-deployment/paasta-monitoring<br>service-deployment/glusterfs<br>service-deployment/rabbitmq<br>service-deployment/mongodb<br>service-deployment/redis<br>service-deployment/web-ide<br>paasta-deployment/paasta<br>portal-deployment/portal-api|
 |paasta_nats_ip|service-deployment/mongodb|
 |paasta_nats_port|service-deployment/mongodb|
 |paasta_nats_user|service-deployment/mongodb|
