@@ -21,9 +21,9 @@ paasta_database_port: 5524			# PaaS-TA Database Port (e.g. 5524(postgresql)/1330
 paasta_database_type: "postgresql"                      # PaaS-TA Database Type (e.g. "postgresql" or "mysql")
 paasta_database_driver_class: "org.postgresql.Driver"   # PaaS-TA Database driver-class (e.g. "org.postgresql.Driver" or "com.mysql.jdbc.Driver")
 paasta_cc_db_id: "cloud_controller"		# CCDB ID (e.g. "cloud_controller")
-paasta_cc_db_password: "cc_admin"		# CCDB Password (e.g. "cc_admin")
+paasta_cc_db_password: "cc_admin"		# CCDB Password (e.g. "c418e687c4Kx!" 영어/숫자/특수문자 혼용 8자리 이상)
 paasta_uaa_db_id: "uaa"				# UAADB ID (e.g. "uaa")
-paasta_uaa_db_password: "uaa_admin"		# UAADB Password (e.g. "uaa_admin")
+paasta_uaa_db_password: "uaa_admin"		# UAADB Password (e.g. "ifb2497iEA5!" 영어/숫자/특수문자 혼용 8자리 이상)
 paasta_api_version: "v3"
 
 # UAAC INFO
