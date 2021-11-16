@@ -47,3 +47,9 @@ portal_web_user_url: "http://portal-web-user.52.78.88.252.nip.io"
 
 ### ETC INFO
 abacus_url: "http://abacus.61.252.53.248.nip.io"	# abacus url (e.g. "http://abacus.xxx.xxx.xxx.xxx.nip.io")
+
+### Zabbix Agent for monitoring ###
+server_ip: "10.37.2.114"               # Zabbix server (or Proxy) IP address
+listen_port: "10050"                   # Zabbix server (or Proxy) Port number
+server_active: "10.37.2.114:10051"     # Zabbix server (or Proxy) IP:Port string
+host_metadata: "paasta"                # Metadata for Zabbix Agent autoregistration
