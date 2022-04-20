@@ -51,6 +51,8 @@ host_metadata: "paasta"                   # Metadata for Zabbix Agent autoregist
 ### Portal INFO
 portal_web_user_ip: "52.78.88.252"
 portal_web_user_url: "http://portal-web-user.52.78.88.252.nip.io" 
+portal_web_user_language: ["ko", "en"]             # portal webuser language list (e.g. ["ko", "en"])
+portal_web_admin_language: ["ko", "en"]             # portal webadmin language list (e.g. ["ko", "en"])
 
 ### ETC INFO
 abacus_url: "http://abacus.61.252.53.248.nip.io"	# abacus url (e.g. "http://abacus.xxx.xxx.xxx.xxx.nip.io")
