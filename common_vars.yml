@@ -38,7 +38,7 @@ elasticsearch_master_port: 9200           # Logsearch의 elasticsearch master Po
 index_retention_period: "10"              # Logsearch의 logstash index 보유 기간(Days)
 syslog_address: "10.0.121.100"            # Logsearch의 ls-router IP
 syslog_port: "2514"                       # Logsearch의 ls-router Port
-syslog_transport: "relp"                  # Logsearch Protocol
+syslog_transport: "udp"                   # Logsearch Protocol
 saas_monitoring_url: "61.252.53.248"      # Pinpoint HAProxy WEBUI의 Public IP
 monitoring_api_url: "61.252.53.241"       # Monitoring-WEB의 Public IP
 
