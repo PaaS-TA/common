@@ -58,6 +58,8 @@ PaaS-TA >= v6.0.0
 |------|---|
 |portal_web_user_ip||
 |portal_web_user_url|portal-deployment/portal-api|
+|portal_web_user_language|portal-deployment/portal-api<br>portal-deployment/portal-ui|
+|portal_web_admin_language|portal-deployment/portal-ui|
 
 
 ### ETC INFO
