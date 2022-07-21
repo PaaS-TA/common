@@ -31,15 +31,16 @@ uaa_client_admin_id: "admin"			# UAAC Admin Client Admin ID
 uaa_client_admin_secret: "admin-secret"		# UAAC Admin Client에 접근하기 위한 Secret 변수
 uaa_client_portal_secret: "clientsecret"	# UAAC Portal Client에 접근하기 위한 Secret 변수
 
-# Monitoring INFO
-metric_url: "10.0.161.101"                # InfluxDB IP
-syslog_address: "10.0.121.100"            # td-agent IP
+# paasta-monitoring & pinpoint-monitoring deployment configuration
+metric_url: "10.0.1.101"                  # influxdb IP
+syslog_address: "10.0.1.100"              # td-agent IP
 syslog_port: "2514"                       # td-agent Port
 syslog_transport: "udp"                   # td-agent Logging Protocol
-saas_monitoring_url: "61.252.53.248"      # Pinpoint HAProxy WEBUI의 Public IP
-monitoring_api_url: "61.252.53.241"       # Monitoring-WEB의 Public IP
+monitoring_api_url: "10.0.1.88"           # monitoring-web IP
+saas_monitoring_url: "10.0.1.89"          # haproxy_webui IP
+pinpoint_was_ip: "10.0.1.90"              # pinpoint_web IP
 
-### Zabbix Agent for monitoring ###
+# zabbix-agent configuration (Essential setting when using IaaS monitoring option)
 server_ip: "xxx.xxx.xxx.xxx"              # Zabbix server (or Proxy) IP address
 listen_port: "10050"                      # Zabbix server (or Proxy) Port number
 server_active: "xxx.xxx.xxx.xxx:10051"    # Zabbix server (or Proxy) IP:Port string
