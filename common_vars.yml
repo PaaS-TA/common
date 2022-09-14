@@ -1,7 +1,7 @@
 # BOSH INFO
 bosh_ip: "10.0.1.6"                              # BOSH IP
 bosh_url: "https://10.0.1.6"                     # BOSH URL (e.g. "https://00.000.0.0")
-bosh_uuid: "ddc7443c-7fb4-4583-56bf-8f2eb677d746"  # BOSH VM에 접속 후 'cat /var/vcap/jobs/syslog_forwarder/config/syslog-release-forwarding-setup.conf | grep "set $.id" | awk '{print $4}' | cut -c 2-37' 명령으로 확인
+bosh_uuid: "ddc7443c-7fb4-4583-56bf-8f2eb677d746"  # BOSH VM에 접속 후 'cat /var/vcap/jobs/syslog_forwarder/config/syslog-release-forwarding-setup.conf | grep "set $.id" | awk '{print $4}' | cut -c 2-37' 명령으로 확인 (Logging용)
 bosh_client_admin_id: "admin"                      # BOSH Client Admin ID
 bosh_client_admin_secret: "7afmwhh0ri37q5w9jwm1"   # BOSH Client Admin Secret('echo $(bosh int ~/workspace/paasta-deployment/bosh/{iaas}/creds.yml --path /admin_password)' 명령어를 통해 확인 가능)
 bosh_director_port: 25555                          # BOSH director port
