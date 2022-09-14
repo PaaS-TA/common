@@ -7,7 +7,6 @@ PaaS-TA >= v6.0.0
 |------|---|
 |bosh_ip|monitoring-deployment/paasta-monitoring|
 |bosh_url|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
-|bosh_uuid|monitoring-deployment/paasta-monitoring|
 |bosh_client_admin_id|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
 |bosh_client_admin_secret|monitoring-deployment/paasta-monitoring<br>service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
 |bosh_director_port|service-deployment/lifecycle-service<br>service-deployment/redis<br>service-deployment/gateway-service<br>service-deployment/web-ide|
